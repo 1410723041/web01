@@ -21,7 +21,7 @@ server.get("/users", function(req, res){
 
 server.post("/users", function(req, res){
    Users.insert(req.query);
-   res.redirect("/");
+   res.redirect("/BackEnd");
     //var form = formidable({maxFileSize:300*1024});
     //form.parse(req, function(err, fields, files){
      //   if(err){
