@@ -1,0 +1,93 @@
+body {
+    margin: 100px 0px 0px 0px;
+  }
+
+.author img {
+    border-style: solid;
+    border-color: #7c7c7c80;
+    border-width: 2px;
+    max-width: 200px;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+}
+
+.name {
+    color: #114B5F;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.name:hover {
+    color: #2186a8;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.author svg {
+    color: #b6b6b6;
+    width: 20px;
+    height: 20px;
+    margin: 10px 5px;
+}
+
+.author svg:hover {
+    color: #114B5F;
+    width: 20px;
+    height: 20px;
+    margin: 10px 5px;
+}
+
+.author a {
+    text-decoration: none;
+}
+
+.author p {
+    margin: 5px 0 5px 0;
+}
+
+.b2 {
+    background-color: #F45B69;
+    color: #ffffff
+}
+
+.b2:hover {
+    background-color: #456990;
+    color: #ffffff
+}
+
+#s1 div div {
+    border-radius: 5px;
+    background-color: #dddddd;
+    text-align: center;
+    object-fit: cover;
+}
+
+#s2 {
+    border-radius: 5px;
+    background-color: #dddddd;
+    text-align: center;
+}
+
+#s1 div img {
+    border-radius: 10px;
+    background-color: #dddddd;
+    text-align: center;
+    max-height: 200px;
+}
+
+.zoomImage{
+    width:100%;
+    height:0;
+    padding-bottom: 100%;
+    overflow:hidden;
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    background-size:cover;
+}
